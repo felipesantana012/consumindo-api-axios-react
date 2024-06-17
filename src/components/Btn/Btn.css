@@ -1,0 +1,17 @@
+.btn{
+    background-color: #ffffff;
+    color: #0e1217;
+    border: 1px solid rgb(199, 199, 199);
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color:#0e1217;
+}
