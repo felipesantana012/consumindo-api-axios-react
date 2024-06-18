@@ -13,7 +13,6 @@ const Home = () => {
       const response =  await blogFetch.get("/posts")
       const data = response.data
       setPosts(data)
-      console.log(data);
     } catch (error) {
         console.log(error);
     }

@@ -1,9 +1,11 @@
 import axios from "axios";
 
+const url = "https://jsonplaceholder.org";
+
 const blogFetch = axios.create({
-    baseURL:"https://jsonplaceholder.org",
+    baseURL: url,
     headers: {
-        "Content-Type": "aplication/json",
+        "Content-Type": "application/json",
     },
 })
 
